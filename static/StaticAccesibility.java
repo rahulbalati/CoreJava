@@ -1,14 +1,14 @@
 public class StaticAccesibility {
     static int a=10;
-    static int b=20;
+    static int b=20; //we can make instance variables as static and public
     int x=30;
     int y=40;
 
     static {
         System.out.println("static block executed");
-       // x=20;      //shows error cannot acces non-staic
+       // x=20;      //shows error because static block  cannot acces non-static
        a=30;
-       b=40;
+       b=40;          //within block we cannot make variable as static or public
 
 
     }
