@@ -7,7 +7,7 @@ class StaticBusinessman{
    private float t;
   private static float r;
   static {
-    r=2;
+    r=2;       //declared universally can be accessed by all 
   }
   void input(){
     Scanner sc=new Scanner(System.in);
