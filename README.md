@@ -22,6 +22,15 @@ This repository contains all java topics from basic to Advance
 --List Interface
 --Set Interface
 --Map Interface
+6.✔✔✔ Java 8 features
+--stream api
+--date and time api
+--lambda expressions
+--functional interface
+--default and static methods in Interface
+--Collector Class
+--forEach() method
+
 
 
 
